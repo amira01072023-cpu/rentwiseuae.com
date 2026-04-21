@@ -1,0 +1,62 @@
+{
+  "workHubs": [
+    "business-bay-downtown",
+    "internet-city-media-city",
+    "jebel-ali-expo-corridor",
+    "deira-bur-dubai",
+    "abu-dhabi-island-core",
+    "airport-yas-corridor"
+  ],
+  "costBands": {
+    "low": { "min": 150, "max": 350 },
+    "medium": { "min": 350, "max": 700 },
+    "high": { "min": 700, "max": 1500 }
+  },
+  "timeBandsMinutesOneWay": {
+    "light": { "min": 15, "max": 30 },
+    "moderate": { "min": 30, "max": 50 },
+    "heavy": { "min": 50, "max": 90 }
+  },
+  "profiles": {
+    "jvc": {
+      "business-bay-downtown": { "mode": "car_or_mixed", "costBand": "medium", "timeBand": "moderate" },
+      "internet-city-media-city": { "mode": "car_or_mixed", "costBand": "medium", "timeBand": "moderate" }
+    },
+    "dubai-marina": {
+      "internet-city-media-city": { "mode": "metro_or_mixed", "costBand": "low", "timeBand": "light" },
+      "business-bay-downtown": { "mode": "metro_or_mixed", "costBand": "medium", "timeBand": "moderate" }
+    },
+    "jlt": {
+      "internet-city-media-city": { "mode": "metro_or_mixed", "costBand": "low", "timeBand": "light" },
+      "business-bay-downtown": { "mode": "metro_or_mixed", "costBand": "medium", "timeBand": "moderate" }
+    },
+    "arjan": {
+      "business-bay-downtown": { "mode": "car", "costBand": "medium", "timeBand": "moderate" },
+      "internet-city-media-city": { "mode": "car", "costBand": "medium", "timeBand": "moderate" }
+    },
+    "al-nahda-dubai": {
+      "deira-bur-dubai": { "mode": "mixed", "costBand": "low", "timeBand": "moderate" },
+      "business-bay-downtown": { "mode": "mixed", "costBand": "medium", "timeBand": "heavy" }
+    },
+    "business-bay": {
+      "business-bay-downtown": { "mode": "walk_or_short_trip", "costBand": "low", "timeBand": "light" },
+      "internet-city-media-city": { "mode": "metro_or_car", "costBand": "medium", "timeBand": "moderate" }
+    },
+    "dubai-south": {
+      "jebel-ali-expo-corridor": { "mode": "car", "costBand": "medium", "timeBand": "light" },
+      "business-bay-downtown": { "mode": "car", "costBand": "high", "timeBand": "heavy" }
+    },
+    "mirdif": {
+      "deira-bur-dubai": { "mode": "car", "costBand": "medium", "timeBand": "moderate" },
+      "business-bay-downtown": { "mode": "car", "costBand": "medium", "timeBand": "moderate" }
+    },
+    "khalifa-city": {
+      "abu-dhabi-island-core": { "mode": "car", "costBand": "medium", "timeBand": "moderate" },
+      "airport-yas-corridor": { "mode": "car", "costBand": "low", "timeBand": "light" }
+    },
+    "al-reem-island": {
+      "abu-dhabi-island-core": { "mode": "car", "costBand": "low", "timeBand": "light" },
+      "airport-yas-corridor": { "mode": "car", "costBand": "medium", "timeBand": "moderate" }
+    }
+  }
+}

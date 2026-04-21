@@ -1,0 +1,86 @@
+{
+  "global": {
+    "securityDepositRateUnfurnished": 0.05,
+    "securityDepositRateFurnished": 0.1,
+    "agentFeeRateDefault": 0.05,
+    "internetSetupEstimate": 200,
+    "movingCostBands": {
+      "small": { "min": 1000, "max": 1800 },
+      "medium": { "min": 1500, "max": 2800 },
+      "large": { "min": 2500, "max": 4500 }
+    },
+    "salarySafetyBands": {
+      "safeMax": 0.3,
+      "stretchMax": 0.4
+    }
+  },
+  "emirates": {
+    "dubai": {
+      "registrationFeeEstimate": 220,
+      "utilityDepositEstimate": 2000,
+      "municipalityMonthlyMethod": "annual_rent * 0.05 / 12"
+    },
+    "abu-dhabi": {
+      "registrationFeeEstimate": { "min": 100, "max": 250 },
+      "utilityDepositEstimate": { "min": 1500, "max": 2500 },
+      "municipalityMonthlyMethod": "custom_local_assumption"
+    },
+    "sharjah": {
+      "registrationFeeEstimate": { "min": 150, "max": 300 },
+      "utilityDepositEstimate": { "min": 1200, "max": 2200 },
+      "municipalityMonthlyMethod": "custom_local_assumption"
+    }
+  },
+  "areaOverrides": {
+    "dubai-marina": {
+      "internetMonthlyEstimate": { "min": 350, "max": 500 },
+      "parkingMonthlyEstimate": { "min": 0, "max": 600 },
+      "movingCostEstimate": { "min": 1500, "max": 3000 }
+    },
+    "jlt": {
+      "internetMonthlyEstimate": { "min": 350, "max": 500 },
+      "parkingMonthlyEstimate": { "min": 0, "max": 500 },
+      "movingCostEstimate": { "min": 1500, "max": 3000 }
+    },
+    "business-bay": {
+      "internetMonthlyEstimate": { "min": 350, "max": 550 },
+      "parkingMonthlyEstimate": { "min": 0, "max": 700 },
+      "movingCostEstimate": { "min": 1500, "max": 3200 }
+    },
+    "jvc": {
+      "internetMonthlyEstimate": { "min": 300, "max": 450 },
+      "parkingMonthlyEstimate": { "min": 0, "max": 300 },
+      "movingCostEstimate": { "min": 1200, "max": 2500 }
+    },
+    "arjan": {
+      "internetMonthlyEstimate": { "min": 300, "max": 450 },
+      "parkingMonthlyEstimate": { "min": 0, "max": 250 },
+      "movingCostEstimate": { "min": 1200, "max": 2500 }
+    },
+    "al-nahda-dubai": {
+      "internetMonthlyEstimate": { "min": 300, "max": 450 },
+      "parkingMonthlyEstimate": { "min": 0, "max": 250 },
+      "movingCostEstimate": { "min": 1000, "max": 2200 }
+    },
+    "dubai-south": {
+      "internetMonthlyEstimate": { "min": 300, "max": 450 },
+      "parkingMonthlyEstimate": { "min": 0, "max": 200 },
+      "movingCostEstimate": { "min": 1200, "max": 2500 }
+    },
+    "mirdif": {
+      "internetMonthlyEstimate": { "min": 300, "max": 450 },
+      "parkingMonthlyEstimate": { "min": 0, "max": 250 },
+      "movingCostEstimate": { "min": 1300, "max": 2800 }
+    },
+    "khalifa-city": {
+      "internetMonthlyEstimate": { "min": 300, "max": 450 },
+      "parkingMonthlyEstimate": { "min": 0, "max": 200 },
+      "movingCostEstimate": { "min": 1000, "max": 2500 }
+    },
+    "al-reem-island": {
+      "internetMonthlyEstimate": { "min": 350, "max": 500 },
+      "parkingMonthlyEstimate": { "min": 0, "max": 400 },
+      "movingCostEstimate": { "min": 1300, "max": 2800 }
+    }
+  }
+}

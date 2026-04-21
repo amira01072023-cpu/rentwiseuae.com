@@ -1,0 +1,9 @@
+node_modules
+.next
+.env
+.env.*
+!.env.example
+!.env.supabase.example
+prisma/listings-export.json
+*.log
+/generated/prisma

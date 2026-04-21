@@ -1,0 +1,597 @@
+[
+  {
+    "id": "jvc",
+    "emirateId": "dubai",
+    "name": "Jumeirah Village Circle",
+    "slug": "jvc",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 50000,
+        "max": 70000
+      },
+      "1br": {
+        "min": 70000,
+        "max": 100000
+      },
+      "2br": {
+        "min": 100000,
+        "max": 145000
+      }
+    },
+    "metroAccess": "partial",
+    "carDependence": "medium",
+    "utilityBand": "medium",
+    "parkingDifficulty": "low",
+    "familyScore": 4,
+    "schoolScore": 3,
+    "bestFor": [
+      "budget-conscious couples",
+      "small families",
+      "drivers"
+    ],
+    "dataStatus": "planning-estimate",
+    "lastUpdated": "2026-03-23",
+    "notes": "Strong comparison candidate against Arjan and Dubai South",
+    "areaType": "master community",
+    "cityTown": "Dubai",
+    "adminRegion": "Dubai Municipality",
+    "sourceUrl": "https://www.dm.gov.ae/"
+  },
+  {
+    "id": "dubai-marina",
+    "emirateId": "dubai",
+    "name": "Dubai Marina",
+    "slug": "dubai-marina",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 75000,
+        "max": 110000
+      },
+      "1br": {
+        "min": 100000,
+        "max": 155000
+      },
+      "2br": {
+        "min": 145000,
+        "max": 230000
+      }
+    },
+    "metroAccess": "strong",
+    "carDependence": "medium",
+    "utilityBand": "high",
+    "parkingDifficulty": "high",
+    "familyScore": 3,
+    "schoolScore": 3,
+    "bestFor": [
+      "professionals",
+      "car-light renters",
+      "lifestyle-focused tenants"
+    ],
+    "dataStatus": "planning-estimate",
+    "lastUpdated": "2026-03-23",
+    "notes": "High visibility page, strong compare page with Jumeirah Lake Towers",
+    "areaType": "waterfront district",
+    "cityTown": "Dubai",
+    "adminRegion": "Dubai Municipality",
+    "sourceUrl": "https://www.dm.gov.ae/",
+    "parentArea": null
+  },
+  {
+    "id": "jlt",
+    "emirateId": "dubai",
+    "name": "Jumeirah Lake Towers",
+    "slug": "jlt",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 70000,
+        "max": 100000
+      },
+      "1br": {
+        "min": 95000,
+        "max": 145000
+      },
+      "2br": {
+        "min": 135000,
+        "max": 215000
+      }
+    },
+    "metroAccess": "strong",
+    "carDependence": "low",
+    "utilityBand": "high",
+    "parkingDifficulty": "medium",
+    "familyScore": 3,
+    "schoolScore": 3,
+    "bestFor": [
+      "professionals",
+      "metro users",
+      "people comparing against Marina"
+    ],
+    "notes": "Important compare page with Marina",
+    "areaType": "master community",
+    "cityTown": "Dubai",
+    "adminRegion": "Dubai Municipality",
+    "sourceUrl": "https://www.dm.gov.ae/"
+  },
+  {
+    "id": "arjan",
+    "emirateId": "dubai",
+    "name": "Arjan",
+    "slug": "arjan",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 45000,
+        "max": 65000
+      },
+      "1br": {
+        "min": 65000,
+        "max": 90000
+      },
+      "2br": {
+        "min": 90000,
+        "max": 130000
+      }
+    },
+    "metroAccess": "none",
+    "carDependence": "high",
+    "utilityBand": "medium",
+    "parkingDifficulty": "low",
+    "familyScore": 4,
+    "schoolScore": 3,
+    "bestFor": [
+      "budget renters",
+      "drivers",
+      "families wanting more space"
+    ],
+    "notes": "Strong comparison page with Jumeirah Village Circle"
+  },
+  {
+    "id": "al-nahda-dubai",
+    "emirateId": "dubai",
+    "name": "Al Nahda Dubai",
+    "slug": "al-nahda-dubai",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 35000,
+        "max": 55000
+      },
+      "1br": {
+        "min": 50000,
+        "max": 75000
+      },
+      "2br": {
+        "min": 70000,
+        "max": 105000
+      }
+    },
+    "metroAccess": "partial",
+    "carDependence": "medium",
+    "utilityBand": "medium",
+    "parkingDifficulty": "medium",
+    "familyScore": 4,
+    "schoolScore": 4,
+    "bestFor": [
+      "families",
+      "cross-border budget comparisons",
+      "practical renters"
+    ],
+    "notes": "Useful in Sharjah vs Dubai commuter content"
+  },
+  {
+    "id": "business-bay",
+    "emirateId": "dubai",
+    "name": "Business Bay",
+    "slug": "business-bay",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 80000,
+        "max": 120000
+      },
+      "1br": {
+        "min": 110000,
+        "max": 170000
+      },
+      "2br": {
+        "min": 160000,
+        "max": 260000
+      }
+    },
+    "metroAccess": "strong",
+    "carDependence": "medium",
+    "utilityBand": "high",
+    "parkingDifficulty": "high",
+    "familyScore": 2,
+    "schoolScore": 2,
+    "bestFor": [
+      "professionals working centrally",
+      "lifestyle-first renters"
+    ],
+    "notes": "Strong page for affordability vs commute tradeoff",
+    "areaType": "master community",
+    "cityTown": "Dubai",
+    "adminRegion": "Dubai Municipality",
+    "sourceUrl": "https://www.dm.gov.ae/",
+    "parentArea": null
+  },
+  {
+    "id": "dubai-south",
+    "emirateId": "dubai",
+    "name": "Dubai South",
+    "slug": "dubai-south",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 35000,
+        "max": 55000
+      },
+      "1br": {
+        "min": 50000,
+        "max": 80000
+      },
+      "2br": {
+        "min": 75000,
+        "max": 115000
+      }
+    },
+    "metroAccess": "none",
+    "carDependence": "high",
+    "utilityBand": "medium",
+    "parkingDifficulty": "low",
+    "familyScore": 4,
+    "schoolScore": 2,
+    "bestFor": [
+      "budget renters",
+      "people trading commute for lower rent"
+    ],
+    "notes": "Ideal for commute vs rent tradeoff examples",
+    "areaType": "aerotropolis",
+    "cityTown": "Dubai",
+    "adminRegion": "Dubai Municipality",
+    "sourceUrl": "https://www.dm.gov.ae/",
+    "parentArea": null
+  },
+  {
+    "id": "mirdif",
+    "emirateId": "dubai",
+    "name": "Mirdif",
+    "slug": "mirdif",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br",
+      "villa"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 45000,
+        "max": 65000
+      },
+      "1br": {
+        "min": 65000,
+        "max": 90000
+      },
+      "2br": {
+        "min": 90000,
+        "max": 130000
+      },
+      "villa": {
+        "min": 140000,
+        "max": 260000
+      }
+    },
+    "metroAccess": "partial",
+    "carDependence": "medium",
+    "utilityBand": "medium",
+    "parkingDifficulty": "low",
+    "familyScore": 5,
+    "schoolScore": 4,
+    "bestFor": [
+      "families",
+      "renters wanting quieter suburban feel"
+    ],
+    "dataStatus": "planning-estimate",
+    "lastUpdated": "2026-03-23",
+    "notes": "Useful family-focused guide page",
+    "areaType": "suburban district",
+    "cityTown": "Dubai",
+    "adminRegion": "Dubai Municipality",
+    "sourceUrl": "https://www.dm.gov.ae/",
+    "parentArea": null
+  },
+  {
+    "id": "khalifa-city",
+    "emirateId": "abu-dhabi",
+    "name": "Khalifa City",
+    "slug": "khalifa-city",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br",
+      "villa"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 28000,
+        "max": 45000
+      },
+      "1br": {
+        "min": 42000,
+        "max": 65000
+      },
+      "2br": {
+        "min": 65000,
+        "max": 95000
+      },
+      "villa": {
+        "min": 150000,
+        "max": 280000
+      }
+    },
+    "metroAccess": "none",
+    "carDependence": "high",
+    "utilityBand": "medium",
+    "parkingDifficulty": "low",
+    "familyScore": 5,
+    "schoolScore": 4,
+    "bestFor": [
+      "families",
+      "space-seekers",
+      "Abu Dhabi suburban living"
+    ],
+    "notes": "Must-have Abu Dhabi family page",
+    "areaType": "suburban district",
+    "cityTown": "Abu Dhabi",
+    "adminRegion": "Capital Region",
+    "sourceUrl": "https://www.dmt.gov.ae/en/adm",
+    "parentArea": null
+  },
+  {
+    "id": "al-reem-island",
+    "emirateId": "abu-dhabi",
+    "name": "Al Reem Island",
+    "slug": "al-reem-island",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 50000,
+        "max": 80000
+      },
+      "1br": {
+        "min": 70000,
+        "max": 110000
+      },
+      "2br": {
+        "min": 105000,
+        "max": 170000
+      }
+    },
+    "metroAccess": "none",
+    "carDependence": "medium",
+    "utilityBand": "high",
+    "parkingDifficulty": "medium",
+    "familyScore": 3,
+    "schoolScore": 3,
+    "bestFor": [
+      "professionals",
+      "modern apartment living",
+      "waterfront renters"
+    ],
+    "notes": "Key Abu Dhabi premium comparison page",
+    "areaType": "island",
+    "cityTown": "Abu Dhabi",
+    "adminRegion": "Capital Region",
+    "sourceUrl": "https://www.dmt.gov.ae/en/adm",
+    "parentArea": null
+  },
+  {
+    "id": "al-nahda-sharjah",
+    "emirateId": "sharjah",
+    "name": "Al Nahda, Sharjah",
+    "slug": "al-nahda-sharjah",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 26000,
+        "max": 42000
+      },
+      "1br": {
+        "min": 36000,
+        "max": 58000
+      },
+      "2br": {
+        "min": 52000,
+        "max": 80000
+      }
+    },
+    "metroAccess": "partial",
+    "carDependence": "medium",
+    "utilityBand": "medium",
+    "parkingDifficulty": "medium",
+    "familyScore": 4,
+    "schoolScore": 4,
+    "bestFor": [
+      "families",
+      "Dubai commuters",
+      "budget-conscious renters"
+    ],
+    "dataStatus": "planning-estimate",
+    "lastUpdated": "2026-03-23",
+    "notes": "High-priority Sharjah commuter-value page",
+    "areaType": "district",
+    "cityTown": "Sharjah",
+    "adminRegion": "Sharjah City Region",
+    "sourceUrl": "https://www.sharjah.gov.ae/"
+  },
+  {
+    "id": "al-taawun-sharjah",
+    "emirateId": "sharjah",
+    "name": "Al Taawun",
+    "slug": "al-taawun",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 30000,
+        "max": 47000
+      },
+      "1br": {
+        "min": 42000,
+        "max": 65000
+      },
+      "2br": {
+        "min": 60000,
+        "max": 92000
+      }
+    },
+    "metroAccess": "partial",
+    "carDependence": "medium",
+    "utilityBand": "medium",
+    "parkingDifficulty": "medium",
+    "familyScore": 4,
+    "schoolScore": 3,
+    "bestFor": [
+      "commuters",
+      "apartment renters",
+      "practical city renters"
+    ],
+    "dataStatus": "planning-estimate",
+    "lastUpdated": "2026-03-23",
+    "notes": "Useful midpoint Sharjah comparison page candidate",
+    "areaType": "district",
+    "cityTown": "Sharjah",
+    "adminRegion": "Sharjah City Region",
+    "sourceUrl": "https://www.sharjah.gov.ae/"
+  },
+  {
+    "id": "muwaileh-commercial",
+    "emirateId": "sharjah",
+    "name": "Muwaileh Commercial",
+    "slug": "muwaileh-commercial",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 22000,
+        "max": 36000
+      },
+      "1br": {
+        "min": 32000,
+        "max": 50000
+      },
+      "2br": {
+        "min": 47000,
+        "max": 72000
+      }
+    },
+    "metroAccess": "none",
+    "carDependence": "high",
+    "utilityBand": "medium",
+    "parkingDifficulty": "low",
+    "familyScore": 4,
+    "schoolScore": 3,
+    "bestFor": [
+      "budget renters",
+      "families wanting more space",
+      "drivers"
+    ],
+    "dataStatus": "planning-estimate",
+    "lastUpdated": "2026-03-23",
+    "notes": "Value-first Sharjah page with family and commuter relevance",
+    "areaType": "district",
+    "parentArea": "Muwaileh",
+    "cityTown": "Sharjah",
+    "adminRegion": "Sharjah City Region",
+    "sourceUrl": "https://www.sharjah.gov.ae/"
+  },
+  {
+    "id": "al-majaz-3",
+    "emirateId": "sharjah",
+    "name": "Al Majaz 3",
+    "slug": "al-majaz-3",
+    "propertyFocus": [
+      "studio",
+      "1br",
+      "2br"
+    ],
+    "rentBands": {
+      "studio": {
+        "min": 32000,
+        "max": 50000
+      },
+      "1br": {
+        "min": 45000,
+        "max": 70000
+      },
+      "2br": {
+        "min": 65000,
+        "max": 98000
+      }
+    },
+    "metroAccess": "none",
+    "carDependence": "medium",
+    "utilityBand": "medium",
+    "parkingDifficulty": "medium",
+    "familyScore": 4,
+    "schoolScore": 3,
+    "bestFor": [
+      "families",
+      "lifestyle renters",
+      "waterfront-oriented tenants"
+    ],
+    "dataStatus": "planning-estimate",
+    "lastUpdated": "2026-03-23",
+    "notes": "Useful Sharjah lifestyle counterweight to value-first districts",
+    "areaType": "district",
+    "parentArea": "Al Majaz",
+    "cityTown": "Sharjah",
+    "adminRegion": "Sharjah City Region",
+    "sourceUrl": "https://www.sharjah.gov.ae/"
+  }
+]

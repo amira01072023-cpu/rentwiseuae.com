@@ -1,0 +1,62 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum ListingType {
+  room
+  bedspace
+}
+
+enum BathroomType {
+  private
+  shared
+}
+
+enum GenderPreference {
+  any
+  male
+  female
+}
+
+enum ContactMethod {
+  whatsapp
+  phone
+}
+
+enum ListingStatus {
+  draft
+  pending
+  approved
+  rejected
+}
+
+model Listing {
+  id                    String           @id @default(cuid())
+  slug                  String           @unique
+  type                  ListingType
+  title                 String
+  city                  String
+  area                  String
+  priceMonthly          Int
+  deposit               Int?
+  billsIncluded         Boolean          @default(false)
+  furnished             Boolean          @default(false)
+  bathroom              BathroomType
+  genderPreference      GenderPreference @default(any)
+  nationalityPreference String?
+  availability          String
+  contactName           String
+  contactMethod         ContactMethod
+  contactValue          String
+  facebookPostUrl       String?
+  summary               String
+  description           String
+  tags                  String
+  status                ListingStatus    @default(pending)
+  createdAt             DateTime         @default(now())
+  updatedAt             DateTime         @updatedAt
+}

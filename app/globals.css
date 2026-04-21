@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --brand-primary: #6d5dfc;
+  --brand-primary-hover: #5f4ef4;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+main {
+  @apply pb-16;
+}
+
+::selection {
+  @apply bg-indigo-200 text-slate-900;
+}
+
+.marquee-group:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+.marquee-group:hover .marquee-card {
+  opacity: 0.72;
+}
+
+.marquee-group .marquee-card:hover {
+  opacity: 1;
+  transform: translateY(-4px) scale(1.01);
+}
+
+.marquee-group .marquee-card:hover > div {
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+  border-color: rgba(99, 102, 241, 0.35);
+}
+
+.marquee-track {
+  animation: homepage-marquee 28s linear infinite;
+  will-change: transform;
+}
+
+@keyframes homepage-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 0.75rem));
+  }
+}
+
+.btn-brand {
+  background: var(--brand-primary);
+  color: white;
+}
+
+.btn-brand:hover {
+  background: var(--brand-primary-hover);
+}
+
+.text-brand {
+  color: var(--brand-primary);
+}
+
+.hover\:text-brand:hover {
+  color: var(--brand-primary);
+}

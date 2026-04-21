@@ -1,0 +1,405 @@
+record_id,country,emirate,admin_region,city_town,area_name,area_type,parent_area,slug,source_url
+UAE-0001,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Abu Dhabi Island,island,,abu-dhabi-island-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0002,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Zahiyah,urban district,Abu Dhabi Island,al-zahiyah-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0003,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Danah,urban district,Abu Dhabi Island,al-danah-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0004,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Markaziyah,urban district,Abu Dhabi Island,al-markaziyah-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0005,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Madinat Zayed,urban district,Abu Dhabi Island,madinat-zayed-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0006,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Khalidiyah,urban district,Abu Dhabi Island,al-khalidiyah-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0007,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Bateen,urban district,Abu Dhabi Island,al-bateen-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0008,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Mushrif,urban district,Abu Dhabi Island,al-mushrif-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0009,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Muroor,urban district,Abu Dhabi Island,al-muroor-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0010,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Nahyan,urban district,Abu Dhabi Island,al-nahyan-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0011,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Wahdah,urban district,Abu Dhabi Island,al-wahdah-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0012,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Rowdah,urban district,Abu Dhabi Island,al-rowdah-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0013,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Maqtaa,urban district,,al-maqtaa-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0014,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Rabdan,urban district,,rabdan-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0015,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Hudayriat Island,island,,al-hudayriat-island-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0016,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Lulu Island,island,,al-lulu-island-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0017,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Reem Island,island,,al-reem-island-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0018,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shams Abu Dhabi,master community,Al Reem Island,shams-abu-dhabi-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0019,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Najmat Abu Dhabi,master community,Al Reem Island,najmat-abu-dhabi-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0020,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Maryah Island,island,,al-maryah-island-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0021,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Saadiyat Island,island,,saadiyat-island-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0022,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Saadiyat Cultural District,cultural district,Saadiyat Island,saadiyat-cultural-district-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0023,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Yas Island,island,,yas-island-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0024,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Yas Acres,villa community,Yas Island,yas-acres-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0025,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Jubail Island,island,,jubail-island-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0026,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Raha Beach,waterfront community,,al-raha-beach-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0027,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Bandar,waterfront community,Al Raha Beach,al-bandar-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0028,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Muneera,waterfront community,Al Raha Beach,al-muneera-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0029,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Zeina,waterfront community,Al Raha Beach,al-zeina-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0030,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Raha Gardens,villa community,,al-raha-gardens-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0031,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Khalifa City,suburban district,,khalifa-city-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0032,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shakhbout City,suburban district,,shakhbout-city-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0033,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Mohammed Bin Zayed City,suburban district,,mohammed-bin-zayed-city-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0034,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Baniyas,suburban district,,baniyas-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0035,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Madinat Al Riyadh,suburban district,,madinat-al-riyadh-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0036,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Falah,suburban district,,al-falah-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0037,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Bahia,coastal suburb,,al-bahia-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0038,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Shahama,coastal suburb,,al-shahama-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0039,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Samha,town,,al-samha-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0040,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Rahba,town,,al-rahba-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0041,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Sas Al Nakhl,residential district,,sas-al-nakhl-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0042,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Masdar City,master community,,masdar-city-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0043,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Reef,master community,,al-reef-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0044,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Mussafah,industrial district,,mussafah-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0045,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Mussafah Shabiya,residential district,Mussafah,mussafah-shabiya-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0046,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,ICAD,industrial zone,Mussafah,icad-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0047,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Shamkha,suburban district,,al-shamkha-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0048,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Shawamekh,suburban district,,al-shawamekh-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0049,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Al Wathba,desert district,,al-wathba-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0050,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Mussafah Industrial Area 1,industrial zone,Mussafah,mussafah-industrial-area-1-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0051,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Mussafah Industrial Area 2,industrial zone,Mussafah,mussafah-industrial-area-2-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0052,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Mussafah Industrial Area 3,industrial zone,Mussafah,mussafah-industrial-area-3-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0053,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Mussafah Industrial Area 4,industrial zone,Mussafah,mussafah-industrial-area-4-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0054,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 1,residential sector,Mussafah,shabiya-1-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0055,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 2,residential sector,Mussafah,shabiya-2-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0056,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 3,residential sector,Mussafah,shabiya-3-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0057,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 4,residential sector,Mussafah,shabiya-4-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0058,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 5,residential sector,Mussafah,shabiya-5-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0059,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 6,residential sector,Mussafah,shabiya-6-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0060,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 7,residential sector,Mussafah,shabiya-7-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0061,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 8,residential sector,Mussafah,shabiya-8-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0062,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 9,residential sector,Mussafah,shabiya-9-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0063,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 10,residential sector,Mussafah,shabiya-10-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0064,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 11,residential sector,Mussafah,shabiya-11-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0065,United Arab Emirates,Abu Dhabi,Capital Region,Abu Dhabi,Shabiya 12,residential sector,Mussafah,shabiya-12-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0066,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Ain,city,,al-ain-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0067,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Ain Oasis,oasis,Al Ain,al-ain-oasis-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0068,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Hili,district,Al Ain,al-hili-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0069,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Jimi,district,Al Ain,al-jimi-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0070,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Muwaiji,district,Al Ain,al-muwaiji-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0071,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Zakher,district,Al Ain,zakher-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0072,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Maqam,district,Al Ain,al-maqam-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0073,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Towayya,district,Al Ain,al-towayya-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0074,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Foah,district,Al Ain,al-foah-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0075,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Yahar,district,Al Ain,al-yahar-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0076,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Qattara,district,Al Ain,al-qattara-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0077,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Mutaredh,district,Al Ain,al-mutaredh-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0078,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Falaj Hazza,district,Al Ain,falaj-hazza-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0079,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Asharej,district,Al Ain,asharej-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0080,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Khabisi,district,Al Ain,al-khabisi-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0081,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Neima,district,Al Ain,neima-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0082,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Noud,district,Al Ain,al-noud-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0083,United Arab Emirates,Abu Dhabi,Al Ain Region,Al Ain,Al Hayer,town,Al Ain Region,al-hayer-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0084,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Madinat Zayed,Madinat Zayed,town,,madinat-zayed-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0085,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Ruwais,Ruwais,industrial town,,ruwais-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0086,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Mirfa,Mirfa,town,,mirfa-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0087,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Liwa,Liwa Oasis,oasis,,liwa-oasis-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0088,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Ghayathi,Ghayathi,town,,ghayathi-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0089,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Al Sila,Al Sila,border town,,al-sila-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0090,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Dalma Island,Dalma Island,island,,dalma-island-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0091,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Sir Bani Yas Island,Sir Bani Yas Island,island,,sir-bani-yas-island-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0092,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Tarif,Tarif,town,,tarif-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0093,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Habshan,Habshan,industrial area,,habshan-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0094,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Jebel Dhanna,Jebel Dhanna,port town,,jebel-dhanna-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0095,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Baynunah,Baynunah,settlement,,baynunah-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0096,United Arab Emirates,Abu Dhabi,Al Dhafra Region,Bu Hasa,Bu Hasa,energy area,,bu-hasa-abu-dhabi,https://www.dmt.gov.ae/en/adm
+UAE-0097,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Deira,historic district,,deira-dubai,https://www.dm.gov.ae/
+UAE-0098,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Rigga,district,Deira,al-rigga-dubai,https://www.dm.gov.ae/
+UAE-0099,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Muraqqabat,district,Deira,al-muraqqabat-dubai,https://www.dm.gov.ae/
+UAE-0100,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Naif,district,Deira,naif-dubai,https://www.dm.gov.ae/
+UAE-0101,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Abu Hail,district,Deira,abu-hail-dubai,https://www.dm.gov.ae/
+UAE-0102,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Hor Al Anz,district,Deira,hor-al-anz-dubai,https://www.dm.gov.ae/
+UAE-0103,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Port Saeed,district,Deira,port-saeed-dubai,https://www.dm.gov.ae/
+UAE-0104,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Garhoud,district,,al-garhoud-dubai,https://www.dm.gov.ae/
+UAE-0105,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Mamzar,coastal district,,al-mamzar-dubai,https://www.dm.gov.ae/
+UAE-0106,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Bur Dubai,historic district,,bur-dubai-dubai,https://www.dm.gov.ae/
+UAE-0107,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Fahidi,heritage quarter,Bur Dubai,al-fahidi-dubai,https://www.dm.gov.ae/
+UAE-0108,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Karama,district,,al-karama-dubai,https://www.dm.gov.ae/
+UAE-0109,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Oud Metha,district,,oud-metha-dubai,https://www.dm.gov.ae/
+UAE-0110,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Jaddaf,district,,al-jaddaf-dubai,https://www.dm.gov.ae/
+UAE-0111,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Healthcare City,special district,Al Jaddaf,dubai-healthcare-city-dubai,https://www.dm.gov.ae/
+UAE-0112,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Culture Village,waterfront district,Al Jaddaf,culture-village-dubai,https://www.dm.gov.ae/
+UAE-0113,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Zabeel,urban district,,zabeel-dubai,https://www.dm.gov.ae/
+UAE-0114,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Downtown Dubai,master community,,downtown-dubai-dubai,https://www.dm.gov.ae/
+UAE-0115,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Business Bay,master community,,business-bay-dubai,https://www.dm.gov.ae/
+UAE-0116,United Arab Emirates,Dubai,Dubai Municipality,Dubai,DIFC,financial district,,difc-dubai,https://www.dm.gov.ae/
+UAE-0117,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Sheikh Zayed Road,corridor district,,sheikh-zayed-road-dubai,https://www.dm.gov.ae/
+UAE-0118,United Arab Emirates,Dubai,Dubai Municipality,Dubai,City Walk,urban district,Al Wasl,city-walk-dubai,https://www.dm.gov.ae/
+UAE-0119,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Wasl,district,,al-wasl-dubai,https://www.dm.gov.ae/
+UAE-0120,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Safa,district,,al-safa-dubai,https://www.dm.gov.ae/
+UAE-0121,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Jumeirah 1,district,Jumeirah,jumeirah-1-dubai,https://www.dm.gov.ae/
+UAE-0122,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Jumeirah 2,district,Jumeirah,jumeirah-2-dubai,https://www.dm.gov.ae/
+UAE-0123,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Jumeirah 3,district,Jumeirah,jumeirah-3-dubai,https://www.dm.gov.ae/
+UAE-0124,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Umm Suqeim 1,district,Umm Suqeim,umm-suqeim-1-dubai,https://www.dm.gov.ae/
+UAE-0125,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Umm Suqeim 2,district,Umm Suqeim,umm-suqeim-2-dubai,https://www.dm.gov.ae/
+UAE-0126,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Umm Suqeim 3,district,Umm Suqeim,umm-suqeim-3-dubai,https://www.dm.gov.ae/
+UAE-0127,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Sufouh 1,district,Al Sufouh,al-sufouh-1-dubai,https://www.dm.gov.ae/
+UAE-0128,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Sufouh 2,district,Al Sufouh,al-sufouh-2-dubai,https://www.dm.gov.ae/
+UAE-0129,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Marina,waterfront district,,dubai-marina-dubai,https://www.dm.gov.ae/
+UAE-0130,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Jumeirah Beach Residence,waterfront district,Dubai Marina,jumeirah-beach-residence-dubai,https://www.dm.gov.ae/
+UAE-0131,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Bluewaters Island,island,,bluewaters-island-dubai,https://www.dm.gov.ae/
+UAE-0132,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Palm Jumeirah,island,,palm-jumeirah-dubai,https://www.dm.gov.ae/
+UAE-0133,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Harbour,waterfront district,,dubai-harbour-dubai,https://www.dm.gov.ae/
+UAE-0134,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Jumeirah Lake Towers,master community,,jumeirah-lake-towers-dubai,https://www.dm.gov.ae/
+UAE-0135,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Emirates Hills,villa community,,emirates-hills-dubai,https://www.dm.gov.ae/
+UAE-0136,United Arab Emirates,Dubai,Dubai Municipality,Dubai,The Meadows,villa community,,the-meadows-dubai,https://www.dm.gov.ae/
+UAE-0137,United Arab Emirates,Dubai,Dubai Municipality,Dubai,The Springs,villa community,,the-springs-dubai,https://www.dm.gov.ae/
+UAE-0138,United Arab Emirates,Dubai,Dubai Municipality,Dubai,The Lakes,villa community,,the-lakes-dubai,https://www.dm.gov.ae/
+UAE-0139,United Arab Emirates,Dubai,Dubai Municipality,Dubai,The Greens,residential community,,the-greens-dubai,https://www.dm.gov.ae/
+UAE-0140,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Barsha Heights,mixed-use community,,barsha-heights-dubai,https://www.dm.gov.ae/
+UAE-0141,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Barsha 1,district,Al Barsha,al-barsha-1-dubai,https://www.dm.gov.ae/
+UAE-0142,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Barsha 2,district,Al Barsha,al-barsha-2-dubai,https://www.dm.gov.ae/
+UAE-0143,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Barsha 3,district,Al Barsha,al-barsha-3-dubai,https://www.dm.gov.ae/
+UAE-0144,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Barsha South,district,Al Barsha,al-barsha-south-dubai,https://www.dm.gov.ae/
+UAE-0145,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Motor City,master community,,motor-city-dubai,https://www.dm.gov.ae/
+UAE-0146,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Arabian Ranches,villa community,,arabian-ranches-dubai,https://www.dm.gov.ae/
+UAE-0147,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Arabian Ranches 2,villa community,Arabian Ranches,arabian-ranches-2-dubai,https://www.dm.gov.ae/
+UAE-0148,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Arabian Ranches 3,villa community,Arabian Ranches,arabian-ranches-3-dubai,https://www.dm.gov.ae/
+UAE-0149,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Sports City,master community,,dubai-sports-city-dubai,https://www.dm.gov.ae/
+UAE-0150,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Jumeirah Village Circle,master community,,jumeirah-village-circle-dubai,https://www.dm.gov.ae/
+UAE-0151,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Jumeirah Village Triangle,master community,,jumeirah-village-triangle-dubai,https://www.dm.gov.ae/
+UAE-0152,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Production City,special district,,dubai-production-city-dubai,https://www.dm.gov.ae/
+UAE-0153,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Studio City,special district,,dubai-studio-city-dubai,https://www.dm.gov.ae/
+UAE-0154,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Science Park,special district,,dubai-science-park-dubai,https://www.dm.gov.ae/
+UAE-0155,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Hills Estate,master community,,dubai-hills-estate-dubai,https://www.dm.gov.ae/
+UAE-0156,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Nad Al Sheba 1,district,Nad Al Sheba,nad-al-sheba-1-dubai,https://www.dm.gov.ae/
+UAE-0157,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Nad Al Sheba 2,district,Nad Al Sheba,nad-al-sheba-2-dubai,https://www.dm.gov.ae/
+UAE-0158,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Nad Al Sheba 3,district,Nad Al Sheba,nad-al-sheba-3-dubai,https://www.dm.gov.ae/
+UAE-0159,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Nad Al Sheba 4,district,Nad Al Sheba,nad-al-sheba-4-dubai,https://www.dm.gov.ae/
+UAE-0160,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Meydan,master community,,meydan-dubai,https://www.dm.gov.ae/
+UAE-0161,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Mohammed Bin Rashid City,master community,,mohammed-bin-rashid-city-dubai,https://www.dm.gov.ae/
+UAE-0162,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Sobha Hartland,master community,Mohammed Bin Rashid City,sobha-hartland-dubai,https://www.dm.gov.ae/
+UAE-0163,United Arab Emirates,Dubai,Dubai Municipality,Dubai,International City,master community,,international-city-dubai,https://www.dm.gov.ae/
+UAE-0164,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Warsan,district,,warsan-dubai,https://www.dm.gov.ae/
+UAE-0165,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Ras Al Khor,district,,ras-al-khor-dubai,https://www.dm.gov.ae/
+UAE-0166,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Quoz 1,district,Al Quoz,al-quoz-1-dubai,https://www.dm.gov.ae/
+UAE-0167,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Quoz 2,district,Al Quoz,al-quoz-2-dubai,https://www.dm.gov.ae/
+UAE-0168,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Quoz 3,district,Al Quoz,al-quoz-3-dubai,https://www.dm.gov.ae/
+UAE-0169,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Quoz 4,district,Al Quoz,al-quoz-4-dubai,https://www.dm.gov.ae/
+UAE-0170,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Quoz Industrial Area 1,industrial zone,Al Quoz,al-quoz-industrial-area-1-dubai,https://www.dm.gov.ae/
+UAE-0171,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Quoz Industrial Area 2,industrial zone,Al Quoz,al-quoz-industrial-area-2-dubai,https://www.dm.gov.ae/
+UAE-0172,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Quoz Industrial Area 3,industrial zone,Al Quoz,al-quoz-industrial-area-3-dubai,https://www.dm.gov.ae/
+UAE-0173,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Quoz Industrial Area 4,industrial zone,Al Quoz,al-quoz-industrial-area-4-dubai,https://www.dm.gov.ae/
+UAE-0174,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Design District,special district,,dubai-design-district-dubai,https://www.dm.gov.ae/
+UAE-0175,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Silicon Oasis,technology park,,dubai-silicon-oasis-dubai,https://www.dm.gov.ae/
+UAE-0176,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Academic City,education district,,academic-city-dubai,https://www.dm.gov.ae/
+UAE-0177,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Festival City,waterfront community,,dubai-festival-city-dubai,https://www.dm.gov.ae/
+UAE-0178,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Mirdif,suburban district,,mirdif-dubai,https://www.dm.gov.ae/
+UAE-0179,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Nad Al Hamar,district,,nad-al-hamar-dubai,https://www.dm.gov.ae/
+UAE-0180,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Muhaisnah 1,district,Muhaisnah,muhaisnah-1-dubai,https://www.dm.gov.ae/
+UAE-0181,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Muhaisnah 2,district,Muhaisnah,muhaisnah-2-dubai,https://www.dm.gov.ae/
+UAE-0182,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Muhaisnah 3,district,Muhaisnah,muhaisnah-3-dubai,https://www.dm.gov.ae/
+UAE-0183,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Muhaisnah 4,district,Muhaisnah,muhaisnah-4-dubai,https://www.dm.gov.ae/
+UAE-0184,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Qusais 1,district,Al Qusais,al-qusais-1-dubai,https://www.dm.gov.ae/
+UAE-0185,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Qusais 2,district,Al Qusais,al-qusais-2-dubai,https://www.dm.gov.ae/
+UAE-0186,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Qusais 3,district,Al Qusais,al-qusais-3-dubai,https://www.dm.gov.ae/
+UAE-0187,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Qusais Industrial Area 1,industrial zone,Al Qusais,al-qusais-industrial-area-1-dubai,https://www.dm.gov.ae/
+UAE-0188,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Qusais Industrial Area 2,industrial zone,Al Qusais,al-qusais-industrial-area-2-dubai,https://www.dm.gov.ae/
+UAE-0189,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Qusais Industrial Area 3,industrial zone,Al Qusais,al-qusais-industrial-area-3-dubai,https://www.dm.gov.ae/
+UAE-0190,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Twar 1,district,Al Twar,al-twar-1-dubai,https://www.dm.gov.ae/
+UAE-0191,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Twar 2,district,Al Twar,al-twar-2-dubai,https://www.dm.gov.ae/
+UAE-0192,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Twar 3,district,Al Twar,al-twar-3-dubai,https://www.dm.gov.ae/
+UAE-0193,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Twar 4,district,Al Twar,al-twar-4-dubai,https://www.dm.gov.ae/
+UAE-0194,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Khawaneej 1,district,Al Khawaneej,al-khawaneej-1-dubai,https://www.dm.gov.ae/
+UAE-0195,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Khawaneej 2,district,Al Khawaneej,al-khawaneej-2-dubai,https://www.dm.gov.ae/
+UAE-0196,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Mizhar 1,district,Al Mizhar,al-mizhar-1-dubai,https://www.dm.gov.ae/
+UAE-0197,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Mizhar 2,district,Al Mizhar,al-mizhar-2-dubai,https://www.dm.gov.ae/
+UAE-0198,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Warqa 1,district,Al Warqa,al-warqa-1-dubai,https://www.dm.gov.ae/
+UAE-0199,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Warqa 2,district,Al Warqa,al-warqa-2-dubai,https://www.dm.gov.ae/
+UAE-0200,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Warqa 3,district,Al Warqa,al-warqa-3-dubai,https://www.dm.gov.ae/
+UAE-0201,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Warqa 4,district,Al Warqa,al-warqa-4-dubai,https://www.dm.gov.ae/
+UAE-0202,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Warqa 5,district,Al Warqa,al-warqa-5-dubai,https://www.dm.gov.ae/
+UAE-0203,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Investment Park 1,mixed-use district,Dubai Investment Park,dubai-investment-park-1-dubai,https://www.dm.gov.ae/
+UAE-0204,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Investment Park 2,mixed-use district,Dubai Investment Park,dubai-investment-park-2-dubai,https://www.dm.gov.ae/
+UAE-0205,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Jebel Ali,port district,,jebel-ali-dubai,https://www.dm.gov.ae/
+UAE-0206,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Jebel Ali Village,residential district,Jebel Ali,jebel-ali-village-dubai,https://www.dm.gov.ae/
+UAE-0207,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Jebel Ali Free Zone,free zone,Jebel Ali,jebel-ali-free-zone-dubai,https://www.dm.gov.ae/
+UAE-0208,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Discovery Gardens,residential community,,discovery-gardens-dubai,https://www.dm.gov.ae/
+UAE-0209,United Arab Emirates,Dubai,Dubai Municipality,Dubai,The Gardens,residential community,,the-gardens-dubai,https://www.dm.gov.ae/
+UAE-0210,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Al Furjan,residential community,,al-furjan-dubai,https://www.dm.gov.ae/
+UAE-0211,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Ibn Battuta District,commercial district,,ibn-battuta-district-dubai,https://www.dm.gov.ae/
+UAE-0212,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai South,aerotropolis,,dubai-south-dubai,https://www.dm.gov.ae/
+UAE-0213,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Expo City Dubai,special district,Dubai South,expo-city-dubai-dubai,https://www.dm.gov.ae/
+UAE-0214,United Arab Emirates,Dubai,Dubai Municipality,Dubai,DAMAC Hills,master community,,damac-hills-dubai,https://www.dm.gov.ae/
+UAE-0215,United Arab Emirates,Dubai,Dubai Municipality,Dubai,DAMAC Hills 2,master community,,damac-hills-2-dubai,https://www.dm.gov.ae/
+UAE-0216,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Remraam,residential community,,remraam-dubai,https://www.dm.gov.ae/
+UAE-0217,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Town Square,master community,,town-square-dubai,https://www.dm.gov.ae/
+UAE-0218,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Mudon,villa community,,mudon-dubai,https://www.dm.gov.ae/
+UAE-0219,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Mira,villa community,,mira-dubai,https://www.dm.gov.ae/
+UAE-0220,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Serena,villa community,,serena-dubai,https://www.dm.gov.ae/
+UAE-0221,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Liwan,residential community,,liwan-dubai,https://www.dm.gov.ae/
+UAE-0222,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Land Residence Complex,residential community,,dubai-land-residence-complex-dubai,https://www.dm.gov.ae/
+UAE-0223,United Arab Emirates,Dubai,Dubai Municipality,Dubai,The Villa,villa community,,the-villa-dubai,https://www.dm.gov.ae/
+UAE-0224,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Villanova,villa community,,villanova-dubai,https://www.dm.gov.ae/
+UAE-0225,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Hatta,town,,hatta-dubai,https://www.dm.gov.ae/
+UAE-0226,United Arab Emirates,Dubai,Dubai Municipality,Dubai,Dubai Creek Harbour,waterfront community,,dubai-creek-harbour-dubai,https://www.dm.gov.ae/
+UAE-0227,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Sharjah City,city,,sharjah-city-sharjah,https://www.sharjah.gov.ae/
+UAE-0228,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Majaz 1,district,Al Majaz,al-majaz-1-sharjah,https://www.sharjah.gov.ae/
+UAE-0229,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Majaz 2,district,Al Majaz,al-majaz-2-sharjah,https://www.sharjah.gov.ae/
+UAE-0230,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Majaz 3,district,Al Majaz,al-majaz-3-sharjah,https://www.sharjah.gov.ae/
+UAE-0231,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Khan,district,,al-khan-sharjah,https://www.sharjah.gov.ae/
+UAE-0232,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Nahda,district,,al-nahda-sharjah,https://www.sharjah.gov.ae/
+UAE-0233,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Taawun,district,,al-taawun-sharjah,https://www.sharjah.gov.ae/
+UAE-0234,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Mamzar,district,,al-mamzar-sharjah,https://www.sharjah.gov.ae/
+UAE-0235,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Qasimia,district,,al-qasimia-sharjah,https://www.sharjah.gov.ae/
+UAE-0236,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Bu Daniq,district,,bu-daniq-sharjah,https://www.sharjah.gov.ae/
+UAE-0237,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Nud,district,,al-nud-sharjah,https://www.sharjah.gov.ae/
+UAE-0238,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Ghuwair,district,,al-ghuwair-sharjah,https://www.sharjah.gov.ae/
+UAE-0239,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Musalla,district,,al-musalla-sharjah,https://www.sharjah.gov.ae/
+UAE-0240,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Yarmook,district,,al-yarmook-sharjah,https://www.sharjah.gov.ae/
+UAE-0241,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Jubail,district,,al-jubail-sharjah,https://www.sharjah.gov.ae/
+UAE-0242,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Soor,district,,al-soor-sharjah,https://www.sharjah.gov.ae/
+UAE-0243,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Maysaloon,district,,maysaloon-sharjah,https://www.sharjah.gov.ae/
+UAE-0244,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Rolla,district,,rolla-sharjah,https://www.sharjah.gov.ae/
+UAE-0245,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Nabba,district,,al-nabba-sharjah,https://www.sharjah.gov.ae/
+UAE-0246,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Fisht,district,,al-fisht-sharjah,https://www.sharjah.gov.ae/
+UAE-0247,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Ramla East,district,Al Ramla,al-ramla-east-sharjah,https://www.sharjah.gov.ae/
+UAE-0248,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Ramla West,district,Al Ramla,al-ramla-west-sharjah,https://www.sharjah.gov.ae/
+UAE-0249,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Hazannah,district,,al-hazannah-sharjah,https://www.sharjah.gov.ae/
+UAE-0250,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Jazzat,district,,al-jazzat-sharjah,https://www.sharjah.gov.ae/
+UAE-0251,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Falaj,district,,al-falaj-sharjah,https://www.sharjah.gov.ae/
+UAE-0252,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Fayha,district,,al-fayha-sharjah,https://www.sharjah.gov.ae/
+UAE-0253,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Qulayaa,district,,al-qulayaa-sharjah,https://www.sharjah.gov.ae/
+UAE-0254,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Manakh,district,,al-manakh-sharjah,https://www.sharjah.gov.ae/
+UAE-0255,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Abar,district,,al-abar-sharjah,https://www.sharjah.gov.ae/
+UAE-0256,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,University City,education district,,university-city-sharjah,https://www.sharjah.gov.ae/
+UAE-0257,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Muwaileh Commercial,district,Muwaileh,muwaileh-commercial-sharjah,https://www.sharjah.gov.ae/
+UAE-0258,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Muwaileh,district,,muwaileh-sharjah,https://www.sharjah.gov.ae/
+UAE-0259,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Tilal City,master community,,tilal-city-sharjah,https://www.sharjah.gov.ae/
+UAE-0260,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Aljada,master community,,aljada-sharjah,https://www.sharjah.gov.ae/
+UAE-0261,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Rahmaniya,district,,al-rahmaniya-sharjah,https://www.sharjah.gov.ae/
+UAE-0262,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Noaf,district,,al-noaf-sharjah,https://www.sharjah.gov.ae/
+UAE-0263,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Suyoh,district,,al-suyoh-sharjah,https://www.sharjah.gov.ae/
+UAE-0264,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Juraina,district,,al-juraina-sharjah,https://www.sharjah.gov.ae/
+UAE-0265,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Al Zahia,master community,,al-zahia-sharjah,https://www.sharjah.gov.ae/
+UAE-0266,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 1,industrial zone,Industrial Areas,industrial-area-1-sharjah,https://www.sharjah.gov.ae/
+UAE-0267,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 2,industrial zone,Industrial Areas,industrial-area-2-sharjah,https://www.sharjah.gov.ae/
+UAE-0268,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 3,industrial zone,Industrial Areas,industrial-area-3-sharjah,https://www.sharjah.gov.ae/
+UAE-0269,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 4,industrial zone,Industrial Areas,industrial-area-4-sharjah,https://www.sharjah.gov.ae/
+UAE-0270,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 5,industrial zone,Industrial Areas,industrial-area-5-sharjah,https://www.sharjah.gov.ae/
+UAE-0271,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 6,industrial zone,Industrial Areas,industrial-area-6-sharjah,https://www.sharjah.gov.ae/
+UAE-0272,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 7,industrial zone,Industrial Areas,industrial-area-7-sharjah,https://www.sharjah.gov.ae/
+UAE-0273,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 8,industrial zone,Industrial Areas,industrial-area-8-sharjah,https://www.sharjah.gov.ae/
+UAE-0274,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 9,industrial zone,Industrial Areas,industrial-area-9-sharjah,https://www.sharjah.gov.ae/
+UAE-0275,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 10,industrial zone,Industrial Areas,industrial-area-10-sharjah,https://www.sharjah.gov.ae/
+UAE-0276,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 11,industrial zone,Industrial Areas,industrial-area-11-sharjah,https://www.sharjah.gov.ae/
+UAE-0277,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 12,industrial zone,Industrial Areas,industrial-area-12-sharjah,https://www.sharjah.gov.ae/
+UAE-0278,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 13,industrial zone,Industrial Areas,industrial-area-13-sharjah,https://www.sharjah.gov.ae/
+UAE-0279,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 14,industrial zone,Industrial Areas,industrial-area-14-sharjah,https://www.sharjah.gov.ae/
+UAE-0280,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 15,industrial zone,Industrial Areas,industrial-area-15-sharjah,https://www.sharjah.gov.ae/
+UAE-0281,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 16,industrial zone,Industrial Areas,industrial-area-16-sharjah,https://www.sharjah.gov.ae/
+UAE-0282,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 17,industrial zone,Industrial Areas,industrial-area-17-sharjah,https://www.sharjah.gov.ae/
+UAE-0283,United Arab Emirates,Sharjah,Sharjah City Region,Sharjah,Industrial Area 18,industrial zone,Industrial Areas,industrial-area-18-sharjah,https://www.sharjah.gov.ae/
+UAE-0284,United Arab Emirates,Sharjah,Eastern & Central Region,Khor Fakkan,Khor Fakkan,city,,khor-fakkan-sharjah,https://www.sharjah.gov.ae/
+UAE-0285,United Arab Emirates,Sharjah,Eastern & Central Region,Khor Fakkan,Khor Fakkan Corniche,waterfront district,,khor-fakkan-corniche-sharjah,https://www.sharjah.gov.ae/
+UAE-0286,United Arab Emirates,Sharjah,Eastern & Central Region,Khor Fakkan,Al Zubara,district,,al-zubara-sharjah,https://www.sharjah.gov.ae/
+UAE-0287,United Arab Emirates,Sharjah,Eastern & Central Region,Khor Fakkan,Al Haray,district,,al-haray-sharjah,https://www.sharjah.gov.ae/
+UAE-0288,United Arab Emirates,Sharjah,Eastern & Central Region,Kalba,Kalba,city,,kalba-sharjah,https://www.sharjah.gov.ae/
+UAE-0289,United Arab Emirates,Sharjah,Eastern & Central Region,Kalba,Kalba Corniche,waterfront district,,kalba-corniche-sharjah,https://www.sharjah.gov.ae/
+UAE-0290,United Arab Emirates,Sharjah,Eastern & Central Region,Kalba,Sur Kalba,historic district,,sur-kalba-sharjah,https://www.sharjah.gov.ae/
+UAE-0291,United Arab Emirates,Sharjah,Eastern & Central Region,Dibba Al Hisn,Dibba Al Hisn,town,,dibba-al-hisn-sharjah,https://www.sharjah.gov.ae/
+UAE-0292,United Arab Emirates,Sharjah,Eastern & Central Region,Dibba Al Hisn,Dibba Al Hisn Fort Area,historic district,,dibba-al-hisn-fort-area-sharjah,https://www.sharjah.gov.ae/
+UAE-0293,United Arab Emirates,Sharjah,Eastern & Central Region,Al Dhaid,Al Dhaid,town,,al-dhaid-sharjah,https://www.sharjah.gov.ae/
+UAE-0294,United Arab Emirates,Sharjah,Eastern & Central Region,Mleiha,Mleiha,town,,mleiha-sharjah,https://www.sharjah.gov.ae/
+UAE-0295,United Arab Emirates,Sharjah,Eastern & Central Region,Hamriyah,Hamriyah,industrial/coastal area,,hamriyah-sharjah,https://www.sharjah.gov.ae/
+UAE-0296,United Arab Emirates,Sharjah,Eastern & Central Region,Al Madam,Al Madam,town,,al-madam-sharjah,https://www.sharjah.gov.ae/
+UAE-0297,United Arab Emirates,Sharjah,Eastern & Central Region,Al Bataeh,Al Bataeh,town,,al-bataeh-sharjah,https://www.sharjah.gov.ae/
+UAE-0298,United Arab Emirates,Ajman,Ajman City Region,Ajman,Ajman City,city,,ajman-city-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0299,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Nuaimiya 1,district,Al Nuaimiya,al-nuaimiya-1-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0300,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Nuaimiya 2,district,Al Nuaimiya,al-nuaimiya-2-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0301,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Nuaimiya 3,district,Al Nuaimiya,al-nuaimiya-3-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0302,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Rashidiya 1,district,Al Rashidiya,al-rashidiya-1-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0303,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Rashidiya 2,district,Al Rashidiya,al-rashidiya-2-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0304,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Rashidiya 3,district,Al Rashidiya,al-rashidiya-3-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0305,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Jurf 1,district,Al Jurf,al-jurf-1-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0306,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Jurf 2,district,Al Jurf,al-jurf-2-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0307,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Jurf 3,district,Al Jurf,al-jurf-3-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0308,United Arab Emirates,Ajman,Ajman City Region,Ajman,Ajman Industrial 1,industrial zone,Ajman Industrial,ajman-industrial-1-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0309,United Arab Emirates,Ajman,Ajman City Region,Ajman,Ajman Industrial 2,industrial zone,Ajman Industrial,ajman-industrial-2-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0310,United Arab Emirates,Ajman,Ajman City Region,Ajman,Ajman Industrial 3,industrial zone,Ajman Industrial,ajman-industrial-3-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0311,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Rawda 1,district,Al Rawda,al-rawda-1-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0312,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Rawda 2,district,Al Rawda,al-rawda-2-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0313,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Rawda 3,district,Al Rawda,al-rawda-3-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0314,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Mowaihat 1,district,Al Mowaihat,al-mowaihat-1-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0315,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Mowaihat 2,district,Al Mowaihat,al-mowaihat-2-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0316,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Mowaihat 3,district,Al Mowaihat,al-mowaihat-3-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0317,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Tallah 1,district,Al Tallah,al-tallah-1-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0318,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Tallah 2,district,Al Tallah,al-tallah-2-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0319,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Zahra,district,,al-zahra-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0320,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Rumailah 1,district,Al Rumailah,al-rumailah-1-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0321,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Rumailah 2,district,Al Rumailah,al-rumailah-2-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0322,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Bustan,district,,al-bustan-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0323,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Hamidiyah,district,,al-hamidiyah-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0324,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Bahia,district,,al-bahia-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0325,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Helio 1,district,Al Helio,al-helio-1-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0326,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Helio 2,district,Al Helio,al-helio-2-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0327,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Alia,district,,al-alia-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0328,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Ameera Village,residential community,,al-ameera-village-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0329,United Arab Emirates,Ajman,Ajman City Region,Ajman,Emirates City,master community,,emirates-city-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0330,United Arab Emirates,Ajman,Ajman City Region,Ajman,Garden City,residential community,,garden-city-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0331,United Arab Emirates,Ajman,Ajman City Region,Ajman,Al Zorah,coastal master community,,al-zorah-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0332,United Arab Emirates,Ajman,Masfout & Manama Region,Masfout,Masfout,town,,masfout-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0333,United Arab Emirates,Ajman,Masfout & Manama Region,Masfout,Masfout Industrial Area,industrial zone,,masfout-industrial-area-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0334,United Arab Emirates,Ajman,Masfout & Manama Region,Manama,Manama,town,,manama-ajman,https://www.ajman.ae/en/about-ajman
+UAE-0335,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Ras Al Khaimah City,city,,ras-al-khaimah-city-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0336,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Nakheel,district,,al-nakheel-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0337,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Dafan Al Nakheel,district,,dafan-al-nakheel-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0338,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Juwais,district,,al-juwais-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0339,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Khuzam,district,,khuzam-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0340,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Sidroh,district,,sidroh-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0341,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Seih Al Uraibi,district,,seih-al-uraibi-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0342,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Seih Al Hudaibah,district,,seih-al-hudaibah-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0343,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Qusaidat,district,,al-qusaidat-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0344,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Julphar,district,,julphar-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0345,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Mairid,district,,al-mairid-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0346,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Mamourah,district,,al-mamourah-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0347,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Dhait North,district,Al Dhait,al-dhait-north-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0348,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Dhait South,district,Al Dhait,al-dhait-south-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0349,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Rams,coastal town,,al-rams-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0350,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Jazirah Al Hamra,historic village,,al-jazirah-al-hamra-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0351,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Hamra Village,master community,Al Jazirah Al Hamra,al-hamra-village-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0352,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Mina Al Arab,waterfront community,,mina-al-arab-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0353,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Marjan Island,island,,al-marjan-island-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0354,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Riffa,district,,al-riffa-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0355,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Kharran,district,,al-kharran-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0356,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Digdaga,district,,digdaga-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0357,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Khatt,district,,khatt-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0358,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Fahlain,district,,al-fahlain-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0359,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Ghail,district,,al-ghail-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0360,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Al Shaam,mountain/coastal area,,al-shaam-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0361,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Ghalilah,coastal village,,ghalilah-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0362,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Shamal,district,,shamal-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0363,United Arab Emirates,Ras Al Khaimah,RAK City & Coastal Region,Ras Al Khaimah,Rams Road Corridor,corridor district,Al Rams,rams-road-corridor-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0364,United Arab Emirates,Ras Al Khaimah,Mountain Region,Masafi,Masafi,town,,masafi-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0365,United Arab Emirates,Ras Al Khaimah,Mountain Region,Wadi Shah,Wadi Shah,village,,wadi-shah-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0366,United Arab Emirates,Ras Al Khaimah,Mountain Region,Wadi Khadeja,Wadi Khadeja,village,,wadi-khadeja-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0367,United Arab Emirates,Ras Al Khaimah,Mountain Region,Shawka,Shawka,village,,shawka-ras-al-khaimah,https://stg.rak.ae/wps/portal/portalrevamp
+UAE-0368,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Fujairah,Fujairah City,city,,fujairah-city-fujairah,https://fujairah.ae/en
+UAE-0369,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Fujairah,Al Faseel,district,,al-faseel-fujairah,https://fujairah.ae/en
+UAE-0370,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Fujairah,Madhab,district,,madhab-fujairah,https://fujairah.ae/en
+UAE-0371,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Fujairah,Sakamkam,district,,sakamkam-fujairah,https://fujairah.ae/en
+UAE-0372,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Fujairah,Qidfa,district,,qidfa-fujairah,https://fujairah.ae/en
+UAE-0373,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Fujairah,Mirbah,district,,mirbah-fujairah,https://fujairah.ae/en
+UAE-0374,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Fujairah,Al Gurfa,district,,al-gurfa-fujairah,https://fujairah.ae/en
+UAE-0375,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Fujairah,Murbah,district,,murbah-fujairah,https://fujairah.ae/en
+UAE-0376,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Fujairah,Fujairah Free Zone,free zone,,fujairah-free-zone-fujairah,https://fujairah.ae/en
+UAE-0377,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Fujairah,Fujairah Port Area,port district,,fujairah-port-area-fujairah,https://fujairah.ae/en
+UAE-0378,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Dibba Al Fujairah,Dibba Al Fujairah,city,,dibba-al-fujairah-fujairah,https://fujairah.ae/en
+UAE-0379,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Dibba Al Fujairah,Al Bidya,coastal village,,al-bidya-fujairah,https://fujairah.ae/en
+UAE-0380,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Dibba Al Fujairah,Dhadna,coastal village,,dhadna-fujairah,https://fujairah.ae/en
+UAE-0381,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Dibba Al Fujairah,Al Aqah,coastal village,,al-aqah-fujairah,https://fujairah.ae/en
+UAE-0382,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Dibba Al Fujairah,Al Hala,village,,al-hala-fujairah,https://fujairah.ae/en
+UAE-0383,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Dibba Al Fujairah,Rul Dadna,district,,rul-dadna-fujairah,https://fujairah.ae/en
+UAE-0384,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Dibba Al Fujairah,Quraiyah,coastal village,,quraiyah-fujairah,https://fujairah.ae/en
+UAE-0385,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Dibba Al Fujairah,Rughaylat,coastal village,,rughaylat-fujairah,https://fujairah.ae/en
+UAE-0386,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Bithnah,Bithnah,town,,bithnah-fujairah,https://fujairah.ae/en
+UAE-0387,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Masafi,Masafi,town,,masafi-fujairah,https://fujairah.ae/en
+UAE-0388,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Awhala,Awhala,village,,awhala-fujairah,https://fujairah.ae/en
+UAE-0389,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Wadi Siji,Wadi Siji,valley settlement,,wadi-siji-fujairah,https://fujairah.ae/en
+UAE-0390,United Arab Emirates,Fujairah,Fujairah & Dibba Region,Wadi Ham,Wadi Ham,valley settlement,,wadi-ham-fujairah,https://fujairah.ae/en
+UAE-0391,United Arab Emirates,Umm Al Quwain,Umm Al Quwain Coastal Region,Umm Al Quwain,Umm Al Quwain City,city,,umm-al-quwain-city-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0392,United Arab Emirates,Umm Al Quwain,Umm Al Quwain Coastal Region,Umm Al Quwain,Al Raas,district,,al-raas-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0393,United Arab Emirates,Umm Al Quwain,Umm Al Quwain Coastal Region,Umm Al Quwain,Al Salamah,district,,al-salamah-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0394,United Arab Emirates,Umm Al Quwain,Umm Al Quwain Coastal Region,Umm Al Quwain,Al Humrah,district,,al-humrah-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0395,United Arab Emirates,Umm Al Quwain,Umm Al Quwain Coastal Region,Umm Al Quwain,Old Town,historic district,Umm Al Quwain City,old-town-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0396,United Arab Emirates,Umm Al Quwain,Umm Al Quwain Coastal Region,Umm Al Quwain,Umm Al Quwain Marina,waterfront district,Umm Al Quwain City,umm-al-quwain-marina-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0397,United Arab Emirates,Umm Al Quwain,Umm Al Quwain Coastal Region,Umm Al Quwain,Al Seanneeah,district,,al-seanneeah-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0398,United Arab Emirates,Umm Al Quwain,Umm Al Quwain Coastal Region,Umm Al Quwain,Al Dar Al Baida,district,,al-dar-al-baida-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0399,United Arab Emirates,Umm Al Quwain,Umm Al Quwain Coastal Region,Umm Al Quwain,Industrial Area,industrial zone,,industrial-area-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0400,United Arab Emirates,Umm Al Quwain,Falaj Al Mualla Region,Falaj Al Mualla,Falaj Al Mualla,town,,falaj-al-mualla-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0401,United Arab Emirates,Umm Al Quwain,Falaj Al Mualla Region,Al Abraq,Al Abraq,rural settlement,,al-abraq-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0402,United Arab Emirates,Umm Al Quwain,Falaj Al Mualla Region,Al Labsa,Al Labsa,rural settlement,,al-labsa-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0403,United Arab Emirates,Umm Al Quwain,Falaj Al Mualla Region,Al Riyadh,Al Riyadh,rural settlement,,al-riyadh-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html
+UAE-0404,United Arab Emirates,Umm Al Quwain,Falaj Al Mualla Region,Umm Al Thuoob,Umm Al Thuoob,rural settlement,,umm-al-thuoob-umm-al-quwain,https://fmd.uaq.ae/en/about-us/overview.html

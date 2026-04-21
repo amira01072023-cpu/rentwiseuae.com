@@ -1,0 +1,17 @@
+[
+  {
+    "id": "dubai",
+    "name": "Dubai",
+    "slug": "dubai"
+  },
+  {
+    "id": "abu-dhabi",
+    "name": "Abu Dhabi",
+    "slug": "abu-dhabi"
+  },
+  {
+    "id": "sharjah",
+    "name": "Sharjah",
+    "slug": "sharjah"
+  }
+]
