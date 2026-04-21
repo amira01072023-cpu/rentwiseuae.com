@@ -3,6 +3,7 @@ import ListingCard from '@/components/ListingCard';
 import PageHero from '@/components/PageHero';
 import SurfaceCard from '@/components/SurfaceCard';
 import { getApprovedListings, getListingCities } from '@/lib/listingQueries';
+import type { AppListing } from '@/lib/listingQueries';
 
 export const metadata: Metadata = {
   title: 'Browse Rooms and Bedspaces for Rent in Dubai, Sharjah, Abu Dhabi and the UAE',
@@ -41,8 +42,8 @@ export default async function BrowsePage({
     sort,
   });
   const cities = await getListingCities();
-  const roomCount = listings.filter((listing) => listing.type === 'room').length;
-  const bedspaceCount = listings.filter((listing) => listing.type === 'bedspace').length;
+  const roomCount = listings.filter((listing: AppListing) => listing.type === 'room').length;
+  const bedspaceCount = listings.filter((listing: AppListing) => listing.type === 'bedspace').length;
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
