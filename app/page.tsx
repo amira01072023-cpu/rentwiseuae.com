@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import ListingCard from '@/components/ListingCard';
+import HomeListingsCarousel from '@/components/HomeListingsCarousel';
 import PageHero from '@/components/PageHero';
 import SurfaceCard from '@/components/SurfaceCard';
 import { getApprovedListings } from '@/lib/listingQueries';
@@ -186,15 +186,7 @@ export default async function HomePage() {
           View all listings
         </Link>
       </div>
-      <div className="mt-6 rounded-[2rem] border border-slate-200/70 bg-[linear-gradient(180deg,_rgba(255,255,255,0.98)_0%,_rgba(248,250,252,0.9)_100%)] px-2 pt-3 pb-4 shadow-[0_14px_40px_rgba(15,23,42,0.05)] sm:px-3 sm:pt-4 sm:pb-5 lg:px-4">
-        <div className="flex snap-x snap-mandatory gap-3 overflow-x-auto px-1 py-2 pb-3 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:gap-4 lg:grid lg:grid-cols-3 lg:overflow-visible lg:px-0 lg:pb-0">
-          {featuredListings.map((listing: AppListing) => (
-            <div key={listing.id} className="w-[calc(100vw-2.75rem)] max-w-none flex-none snap-center transition duration-300 hover:-translate-y-1 sm:w-[360px] lg:w-auto lg:max-w-none lg:snap-start">
-              <ListingCard listing={listing} compact />
-            </div>
-          ))}
-        </div>
-      </div>
+      <HomeListingsCarousel listings={featuredListings} />
 
       <div className="mt-12 rounded-[2rem] border border-slate-200 bg-slate-50/80 p-6">
         <div>
