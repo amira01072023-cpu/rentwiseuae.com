@@ -1,7 +1,11 @@
 import { prisma } from '@/lib/prisma';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { BathroomType, ContactMethod, GenderPreference, ListingStatus, ListingType } from '@prisma/client';
+
+type ListingType = 'room' | 'bedspace';
+type BathroomType = 'private' | 'shared';
+type GenderPreference = 'any' | 'male' | 'female';
+type ContactMethod = 'whatsapp' | 'phone';
 
 function slugify(value: string) {
   return value
@@ -118,7 +122,7 @@ export async function submitListing(formData: FormData) {
       summary,
       description,
       tags: JSON.stringify([]),
-      status: ListingStatus.pending,
+      status: 'pending',
     },
   });
 
@@ -138,7 +142,7 @@ export async function approveListing(formData: FormData) {
 
   await prisma.listing.update({
     where: { id },
-    data: { status: ListingStatus.approved },
+    data: { status: 'approved' },
   });
 
   revalidatePath('/');
@@ -156,7 +160,7 @@ export async function rejectListing(formData: FormData) {
 
   await prisma.listing.update({
     where: { id },
-    data: { status: ListingStatus.rejected },
+    data: { status: 'rejected' },
   });
 
   revalidatePath('/');
