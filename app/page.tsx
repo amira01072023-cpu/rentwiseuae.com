@@ -4,6 +4,7 @@ import ListingCard from '@/components/ListingCard';
 import PageHero from '@/components/PageHero';
 import SurfaceCard from '@/components/SurfaceCard';
 import { getApprovedListings } from '@/lib/listingQueries';
+import type { AppListing } from '@/lib/listingQueries';
 
 export const metadata: Metadata = {
   title: 'Rooms and Bedspaces for Rent in Dubai, Sharjah, Abu Dhabi and Across the UAE',
@@ -188,7 +189,7 @@ export default async function HomePage() {
       </div>
       <div className="marquee-group mt-6 overflow-hidden rounded-[2rem] border border-slate-200/70 bg-[linear-gradient(180deg,_rgba(255,255,255,0.98)_0%,_rgba(248,250,252,0.9)_100%)] px-2 pt-3 pb-4 shadow-[0_14px_40px_rgba(15,23,42,0.05)] sm:px-3 sm:pt-4 sm:pb-5 lg:px-4">
         <div className="marquee-track flex w-max gap-6 py-2">
-          {marqueeListings.map((listing, index) => (
+          {marqueeListings.map((listing: AppListing, index: number) => (
             <div key={`${listing.id}-${index}`} className="marquee-card w-[280px] max-w-[320px] flex-none transition duration-300 hover:-translate-y-1">
               <ListingCard listing={listing} compact />
             </div>
