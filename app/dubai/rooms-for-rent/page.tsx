@@ -4,6 +4,7 @@ import PageHero from '@/components/PageHero';
 import ListingCard from '@/components/ListingCard';
 import SurfaceCard from '@/components/SurfaceCard';
 import { getApprovedListings } from '@/lib/listingQueries';
+import type { AppListing } from '@/lib/listingQueries';
 
 export const metadata: Metadata = {
   title: 'Rooms for rent in Dubai',
@@ -34,7 +35,7 @@ export default async function DubaiRoomsPage() {
       </div>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
-        {listings.length > 0 ? listings.map((listing) => <ListingCard key={listing.id} listing={listing} />) : <SurfaceCard className="lg:col-span-2"><div className="text-lg font-semibold text-slate-900">No Dubai room listings yet</div><p className="mt-2 text-sm text-slate-600">Post the first one or check the main browse page.</p></SurfaceCard>}
+        {listings.length > 0 ? listings.map((listing: AppListing) => <ListingCard key={listing.id} listing={listing} />) : <SurfaceCard className="lg:col-span-2"><div className="text-lg font-semibold text-slate-900">No Dubai room listings yet</div><p className="mt-2 text-sm text-slate-600">Post the first one or check the main browse page.</p></SurfaceCard>}
       </div>
     </main>
   );

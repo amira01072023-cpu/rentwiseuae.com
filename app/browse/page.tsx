@@ -133,7 +133,7 @@ export default async function BrowsePage({
 
       <div className="mt-10 grid gap-6 lg:grid-cols-2">
         {listings.length > 0 ? (
-          listings.map((listing) => (
+          listings.map((listing: AppListing) => (
             <ListingCard key={listing.id} listing={listing} />
           ))
         ) : (
