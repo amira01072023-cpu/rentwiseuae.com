@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import SurfaceCard from '@/components/SurfaceCard';
 import { getPendingListings } from '@/lib/listingQueries';
 import { approveListing, rejectListing } from '@/lib/listingForm';
+import type { AppListing } from '@/lib/listingQueries';
 
 export const metadata: Metadata = {
   title: 'Admin listing moderation',
@@ -32,7 +33,7 @@ export default async function AdminListingsPage() {
             <p className="mt-2 text-sm text-slate-600">Everything currently submitted has already been reviewed.</p>
           </SurfaceCard>
         ) : (
-          listings.map((listing) => (
+          listings.map((listing: AppListing) => (
             <SurfaceCard key={listing.id}>
               <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
                 <div className="max-w-3xl">
