@@ -1,4 +1,4 @@
-import { getSupabaseServerClient } from '@/lib/supabase';
+import { getSupabaseServerClient, hasSupabaseEnv } from '@/lib/supabase';
 
 export type AppListing = {
   id: string;
@@ -62,6 +62,10 @@ export async function getApprovedListings(filters?: {
   query?: string;
   sort?: 'newest' | 'price-low' | 'price-high';
 }) {
+  if (!hasSupabaseEnv()) {
+    return [];
+  }
+
   const supabase = getSupabaseServerClient();
   const cutoff = getRecentListingsCutoffIso();
 
@@ -109,6 +113,10 @@ export async function getApprovedListings(filters?: {
 }
 
 export async function getApprovedListingBySlug(slug: string) {
+  if (!hasSupabaseEnv()) {
+    return null;
+  }
+
   const supabase = getSupabaseServerClient();
   const cutoff = getRecentListingsCutoffIso();
 
@@ -128,6 +136,10 @@ export async function getApprovedListingBySlug(slug: string) {
 }
 
 export async function getListingCities() {
+  if (!hasSupabaseEnv()) {
+    return [];
+  }
+
   const supabase = getSupabaseServerClient();
   const cutoff = getRecentListingsCutoffIso();
 
@@ -146,6 +158,10 @@ export async function getListingCities() {
 }
 
 export async function getPendingListings() {
+  if (!hasSupabaseEnv()) {
+    return [];
+  }
+
   const supabase = getSupabaseServerClient();
 
   const { data, error } = await supabase
