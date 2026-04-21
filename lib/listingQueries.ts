@@ -1,18 +1,34 @@
-import { prisma } from '@/lib/prisma';
-import type { Prisma } from '@prisma/client';
+import { getSupabaseServerClient } from '@/lib/supabase';
 
-type PrismaListing = Prisma.ListingGetPayload<Record<string, never>>;
-
-export type AppListing = PrismaListing & {
+export type AppListing = {
+  id: string;
+  slug: string;
+  type: 'room' | 'bedspace';
+  title: string;
+  city: string;
+  area: string;
+  priceMonthly: number;
+  deposit: number | null;
+  billsIncluded: boolean;
+  furnished: boolean;
+  bathroom: 'private' | 'shared';
+  genderPreference: 'any' | 'male' | 'female';
+  nationalityPreference: string | null;
+  availability: string;
+  contactName: string;
+  contactMethod: 'whatsapp' | 'phone';
+  contactValue: string;
+  facebookPostUrl: string | null;
+  summary: string;
+  description: string;
+  tags: string;
+  status: 'draft' | 'pending' | 'approved' | 'rejected';
+  createdAt: string;
+  updatedAt: string;
   tagsList: string[];
 };
 
-function mapListing(listing: PrismaListing): AppListing {
-  return {
-    ...listing,
-    tagsList: safelyParseTags(listing.tags),
-  };
-}
+type ListingRow = Omit<AppListing, 'tagsList'>;
 
 function safelyParseTags(value: string) {
   try {
@@ -23,12 +39,19 @@ function safelyParseTags(value: string) {
   }
 }
 
+function mapListing(listing: ListingRow): AppListing {
+  return {
+    ...listing,
+    tagsList: safelyParseTags(listing.tags),
+  };
+}
+
 const MAX_LISTING_AGE_DAYS = 30;
 
-function getRecentListingsCutoffDate() {
+function getRecentListingsCutoffIso() {
   const cutoff = new Date();
   cutoff.setDate(cutoff.getDate() - MAX_LISTING_AGE_DAYS);
-  return cutoff;
+  return cutoff.toISOString();
 }
 
 export async function getApprovedListings(filters?: {
@@ -39,106 +62,101 @@ export async function getApprovedListings(filters?: {
   query?: string;
   sort?: 'newest' | 'price-low' | 'price-high';
 }) {
-  const where: Prisma.ListingWhereInput = {
-    status: 'approved',
-    createdAt: {
-      gte: getRecentListingsCutoffDate(),
-    },
-  };
+  const supabase = getSupabaseServerClient();
+  const cutoff = getRecentListingsCutoffIso();
+
+  let query = supabase
+    .from('Listing')
+    .select('*')
+    .eq('status', 'approved')
+    .gte('createdAt', cutoff);
 
   if (filters?.city) {
-    where.city = filters.city;
+    query = query.eq('city', filters.city);
   }
 
   if (filters?.type) {
-    where.type = filters.type;
+    query = query.eq('type', filters.type);
   }
 
-  if (filters?.minPrice || filters?.maxPrice) {
-    where.priceMonthly = {};
-    if (filters.minPrice) {
-      where.priceMonthly.gte = filters.minPrice;
-    }
-    if (filters.maxPrice) {
-      where.priceMonthly.lte = filters.maxPrice;
-    }
+  if (typeof filters?.minPrice === 'number') {
+    query = query.gte('priceMonthly', filters.minPrice);
+  }
+
+  if (typeof filters?.maxPrice === 'number') {
+    query = query.lte('priceMonthly', filters.maxPrice);
   }
 
   if (filters?.query) {
-    where.OR = [
-      {
-        title: {
-          contains: filters.query,
-        },
-      },
-      {
-        area: {
-          contains: filters.query,
-        },
-      },
-      {
-        city: {
-          contains: filters.query,
-        },
-      },
-      {
-        summary: {
-          contains: filters.query,
-        },
-      },
-    ];
+    const term = filters.query.trim();
+    query = query.or(`title.ilike.%${term}%,area.ilike.%${term}%,city.ilike.%${term}%,summary.ilike.%${term}%`);
   }
 
-  const orderBy =
-    filters?.sort === 'price-low'
-      ? [{ priceMonthly: 'asc' as const }]
-      : filters?.sort === 'price-high'
-        ? [{ priceMonthly: 'desc' as const }]
-        : [{ createdAt: 'desc' as const }];
+  if (filters?.sort === 'price-low') {
+    query = query.order('priceMonthly', { ascending: true });
+  } else if (filters?.sort === 'price-high') {
+    query = query.order('priceMonthly', { ascending: false });
+  } else {
+    query = query.order('createdAt', { ascending: false });
+  }
 
-  const rows = await prisma.listing.findMany({
-    where,
-    orderBy,
-  });
+  const { data, error } = await query;
+  if (error) {
+    throw new Error(error.message);
+  }
 
-  return rows.map(mapListing);
+  return (data ?? []).map((row) => mapListing(row as ListingRow));
 }
 
 export async function getApprovedListingBySlug(slug: string) {
-  const row = await prisma.listing.findFirst({
-    where: {
-      slug,
-      status: 'approved',
-      createdAt: {
-        gte: getRecentListingsCutoffDate(),
-      },
-    },
-  });
+  const supabase = getSupabaseServerClient();
+  const cutoff = getRecentListingsCutoffIso();
 
-  return row ? mapListing(row) : null;
+  const { data, error } = await supabase
+    .from('Listing')
+    .select('*')
+    .eq('slug', slug)
+    .eq('status', 'approved')
+    .gte('createdAt', cutoff)
+    .maybeSingle();
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return data ? mapListing(data as ListingRow) : null;
 }
 
 export async function getListingCities() {
-  const rows = await prisma.listing.findMany({
-    where: {
-      status: 'approved',
-      createdAt: {
-        gte: getRecentListingsCutoffDate(),
-      },
-    },
-    select: { city: true },
-    distinct: ['city'],
-    orderBy: { city: 'asc' },
-  });
+  const supabase = getSupabaseServerClient();
+  const cutoff = getRecentListingsCutoffIso();
 
-  return rows.map((row) => row.city);
+  const { data, error } = await supabase
+    .from('Listing')
+    .select('city')
+    .eq('status', 'approved')
+    .gte('createdAt', cutoff)
+    .order('city', { ascending: true });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return Array.from(new Set((data ?? []).map((row) => String(row.city)).filter(Boolean)));
 }
 
 export async function getPendingListings() {
-  const rows = await prisma.listing.findMany({
-    where: { status: 'pending' },
-    orderBy: [{ createdAt: 'desc' }],
-  });
+  const supabase = getSupabaseServerClient();
 
-  return rows.map(mapListing);
+  const { data, error } = await supabase
+    .from('Listing')
+    .select('*')
+    .eq('status', 'pending')
+    .order('createdAt', { ascending: false });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return (data ?? []).map((row) => mapListing(row as ListingRow));
 }

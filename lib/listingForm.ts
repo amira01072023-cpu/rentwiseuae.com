@@ -1,4 +1,4 @@
-import { prisma } from '@/lib/prisma';
+import { getSupabaseServerClient } from '@/lib/supabase';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
 
@@ -58,6 +58,7 @@ function normalizeFacebookPostUrl(raw: string) {
 export async function submitListing(formData: FormData) {
   'use server';
 
+  const supabase = getSupabaseServerClient();
   const title = String(formData.get('title') || '').trim();
   const type = String(formData.get('type') || '').trim() as ListingType;
   const city = String(formData.get('city') || '').trim();
@@ -90,41 +91,44 @@ export async function submitListing(formData: FormData) {
   }
 
   const baseSlug = slugify(`${title}-${area}-${city}`);
-  const similarCount = await prisma.listing.count({
-    where: {
-      slug: {
-        startsWith: baseSlug,
-      },
-    },
+  const { count, error: countError } = await supabase
+    .from('Listing')
+    .select('id', { count: 'exact', head: true })
+    .ilike('slug', `${baseSlug}%`);
+
+  if (countError) {
+    throw new Error(countError.message);
+  }
+
+  const slug = !count ? baseSlug : `${baseSlug}-${count + 1}`;
+
+  const { error } = await supabase.from('Listing').insert({
+    slug,
+    type,
+    title,
+    city,
+    area,
+    priceMonthly,
+    deposit: depositRaw ? Number(depositRaw) : null,
+    billsIncluded,
+    furnished,
+    bathroom,
+    genderPreference,
+    nationalityPreference: nationalityPreference || null,
+    availability,
+    contactName,
+    contactMethod,
+    contactValue,
+    facebookPostUrl,
+    summary,
+    description,
+    tags: JSON.stringify([]),
+    status: 'pending',
   });
 
-  const slug = similarCount === 0 ? baseSlug : `${baseSlug}-${similarCount + 1}`;
-
-  await prisma.listing.create({
-    data: {
-      slug,
-      type,
-      title,
-      city,
-      area,
-      priceMonthly,
-      deposit: depositRaw ? Number(depositRaw) : null,
-      billsIncluded,
-      furnished,
-      bathroom,
-      genderPreference,
-      nationalityPreference: nationalityPreference || null,
-      availability,
-      contactName,
-      contactMethod,
-      contactValue,
-      facebookPostUrl,
-      summary,
-      description,
-      tags: JSON.stringify([]),
-      status: 'pending',
-    },
-  });
+  if (error) {
+    throw new Error(error.message);
+  }
 
   revalidatePath('/');
   revalidatePath('/browse');
@@ -135,15 +139,16 @@ export async function submitListing(formData: FormData) {
 export async function approveListing(formData: FormData) {
   'use server';
 
+  const supabase = getSupabaseServerClient();
   const id = String(formData.get('id') || '').trim();
   if (!id) {
     throw new Error('Missing listing id.');
   }
 
-  await prisma.listing.update({
-    where: { id },
-    data: { status: 'approved' },
-  });
+  const { error } = await supabase.from('Listing').update({ status: 'approved' }).eq('id', id);
+  if (error) {
+    throw new Error(error.message);
+  }
 
   revalidatePath('/');
   revalidatePath('/browse');
@@ -153,15 +158,16 @@ export async function approveListing(formData: FormData) {
 export async function rejectListing(formData: FormData) {
   'use server';
 
+  const supabase = getSupabaseServerClient();
   const id = String(formData.get('id') || '').trim();
   if (!id) {
     throw new Error('Missing listing id.');
   }
 
-  await prisma.listing.update({
-    where: { id },
-    data: { status: 'rejected' },
-  });
+  const { error } = await supabase.from('Listing').update({ status: 'rejected' }).eq('id', id);
+  if (error) {
+    throw new Error(error.message);
+  }
 
   revalidatePath('/');
   revalidatePath('/browse');
