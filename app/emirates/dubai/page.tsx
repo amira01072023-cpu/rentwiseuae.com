@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import PageHero from '@/components/PageHero';
-import HomePreviewCard from '@/components/HomePreviewCard';
 import SurfaceCard from '@/components/SurfaceCard';
 
 export const metadata: Metadata = {
@@ -30,19 +29,6 @@ export default function DubaiLandingPage() {
         <SurfaceCard><div className="text-sm text-slate-500">How this works</div><div className="mt-1 font-semibold text-slate-900">Text-first, direct contact</div><div className="mt-2 text-sm text-slate-600">This site does not host photos. Renters contact listers directly to request photos, exact location, and viewing details.</div></SurfaceCard>
       </div>
 
-      <div className="mt-10 rounded-[2rem] border border-slate-200 bg-slate-50/80 p-6">
-        <div>
-          <div className="text-brand text-sm font-semibold uppercase tracking-[0.18em]">Featured now</div>
-          <h2 className="mt-3 text-2xl font-semibold text-slate-900">Popular Dubai area pages</h2>
-          <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-600">Explore key Dubai area guides to compare lifestyle, convenience, and budget before you browse listings in more detail.</p>
-        </div>
-        <div className="mt-6 grid gap-4 lg:grid-cols-2 xl:grid-cols-4">
-          <HomePreviewCard title="Dubai area" value="JVC" description="Useful for renters checking practical apartment-heavy Dubai areas." href="/areas/jvc" cta="Open area page" />
-          <HomePreviewCard title="Dubai area" value="Arjan" description="A practical Dubai area page for renters balancing budget and access." href="/areas/arjan" cta="Open area page" />
-          <HomePreviewCard title="Dubai area" value="Dubai Marina" description="Useful for renters looking at premium shared options and strong access." href="/areas/dubai-marina" cta="Open area page" />
-          <HomePreviewCard title="Dubai area" value="Al Nahda Dubai" description="A strong border-area page for renters comparing convenience and value." href="/areas/al-nahda-dubai" cta="Open area page" />
-        </div>
-      </div>
     </main>
   );
 }

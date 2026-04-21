@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import PageHero from '@/components/PageHero';
-import HomePreviewCard from '@/components/HomePreviewCard';
 import SurfaceCard from '@/components/SurfaceCard';
 
 export const metadata: Metadata = {
@@ -30,19 +29,6 @@ export default function SharjahLandingPage() {
         <SurfaceCard><div className="text-sm text-slate-500">How this works</div><div className="mt-1 font-semibold text-slate-900">Simple listing, direct contact</div><div className="mt-2 text-sm text-slate-600">Renters browse the essentials here, then contact listers directly for photos, location, and full rental details.</div></SurfaceCard>
       </div>
 
-      <div className="mt-10 rounded-[2rem] border border-slate-200 bg-slate-50/80 p-6">
-        <div>
-          <div className="text-brand text-sm font-semibold uppercase tracking-[0.18em]">Featured now</div>
-          <h2 className="mt-3 text-2xl font-semibold text-slate-900">Popular Sharjah area pages</h2>
-          <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-600">Explore key Sharjah area guides to compare commuter convenience, pricing, and renter fit before moving into listings.</p>
-        </div>
-        <div className="mt-6 grid gap-4 lg:grid-cols-2 xl:grid-cols-4">
-          <HomePreviewCard title="Sharjah area" value="Al Nahda, Sharjah" description="A strong practical page for border-area renters." href="/areas/al-nahda-sharjah" cta="Open area page" />
-          <HomePreviewCard title="Sharjah area" value="Al Taawun" description="Useful for renters who want a more established Sharjah apartment area." href="/areas/al-taawun" cta="Open area page" />
-          <HomePreviewCard title="Sharjah area" value="Muwaileh Commercial" description="Useful for renters prioritising value and family practicality." href="/areas/muwaileh-commercial" cta="Open area page" />
-          <HomePreviewCard title="Sharjah area" value="Al Majaz 3" description="A useful page for renters comparing different Sharjah area feels." href="/areas/al-majaz-3" cta="Open area page" />
-        </div>
-      </div>
     </main>
   );
 }

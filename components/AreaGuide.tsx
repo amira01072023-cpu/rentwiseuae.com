@@ -168,27 +168,10 @@ export default function AreaGuide({
         <NextStepsCard
           items={[
             {
-              href: `/rent-decision?area=${area.id}&propertyType=${propertyType}`,
-              label: `Run the full decision tool for ${area.name}`,
-              description: 'Check move-in cash, monthly cost, and salary safety in one flow.',
-            },
-            {
-              href: `/move-in-calculator?area=${area.id}&propertyType=${propertyType}`,
-              label: 'Check move-in cash only',
-              description: 'Useful if the biggest question is how much cash you need before signing.',
-            },
-            {
               href: `/monthly-cost-calculator?area=${area.id}`,
               label: 'Check true monthly cost',
               description: 'Break down the recurring cost after rent, utilities, internet, parking, and commute.',
             },
-            ...(relatedCompareHref && relatedCompareLabel
-              ? [{
-                  href: relatedCompareHref,
-                  label: relatedCompareLabel,
-                  description: 'Open the related side-by-side comparison to compare tradeoffs more directly.',
-                }]
-              : []),
           ]}
         />
       </div>
