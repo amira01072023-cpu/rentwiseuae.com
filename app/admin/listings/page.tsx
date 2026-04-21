@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import SurfaceCard from '@/components/SurfaceCard';
+
+export const dynamic = 'force-dynamic';
 import { getPendingListings } from '@/lib/listingQueries';
 import { approveListing, rejectListing } from '@/lib/listingForm';
 import type { AppListing } from '@/lib/listingQueries';
