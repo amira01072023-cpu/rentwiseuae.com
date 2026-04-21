@@ -125,7 +125,7 @@ export default async function ListingDetailPage({ params }: { params: Promise<{ 
 
               {listing.tagsList.length > 0 ? (
                 <div className="mt-5 flex flex-wrap gap-2 text-xs text-slate-600">
-                  {listing.tagsList.map((tag) => (
+                  {listing.tagsList.map((tag: string) => (
                     <span key={tag} className="rounded-full bg-slate-100 px-3 py-1">{tag}</span>
                   ))}
                 </div>
