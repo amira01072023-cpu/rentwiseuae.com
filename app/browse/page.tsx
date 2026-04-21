@@ -89,7 +89,7 @@ export default async function BrowsePage({
             <span className="text-sm font-medium text-slate-900">Emirate</span>
             <select name="city" defaultValue={city || ''} className="mt-2 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm">
               <option value="">All emirates</option>
-              {cities.map((item) => (
+              {cities.map((item: string) => (
                 <option key={item} value={item}>{item}</option>
               ))}
             </select>
