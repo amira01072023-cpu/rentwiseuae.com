@@ -1,5 +1,7 @@
 import { prisma } from '@/lib/prisma';
-import type { Listing as PrismaListing, Prisma } from '@prisma/client';
+import type { Prisma } from '@prisma/client';
+
+type PrismaListing = Prisma.ListingGetPayload<Record<string, never>>;
 
 export type AppListing = PrismaListing & {
   tagsList: string[];
